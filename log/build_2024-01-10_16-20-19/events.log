@@ -1,0 +1,123 @@
+[0.000000] (-) TimerEvent: {}
+[0.000524] (my_pkgcpp) JobQueued: {'identifier': 'my_pkgcpp', 'dependencies': OrderedDict()}
+[0.000571] (my_pkgpy) JobQueued: {'identifier': 'my_pkgpy', 'dependencies': OrderedDict()}
+[0.000599] (my_robot_interfaces) JobQueued: {'identifier': 'my_robot_interfaces', 'dependencies': OrderedDict()}
+[0.001211] (my_pkgcpp) JobStarted: {'identifier': 'my_pkgcpp'}
+[0.069212] (my_pkgpy) JobStarted: {'identifier': 'my_pkgpy'}
+[0.100040] (-) TimerEvent: {}
+[0.174163] (my_robot_interfaces) JobStarted: {'identifier': 'my_robot_interfaces'}
+[0.200149] (-) TimerEvent: {}
+[0.242276] (my_pkgcpp) JobProgress: {'identifier': 'my_pkgcpp', 'progress': 'cmake'}
+[0.244079] (my_pkgcpp) JobProgress: {'identifier': 'my_pkgcpp', 'progress': 'build'}
+[0.244129] (my_pkgcpp) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/varun/ros2workspace/build/my_pkgcpp', '--', '-j12', '-l12'], 'cwd': '/home/varun/ros2workspace/build/my_pkgcpp', 'env': OrderedDict([('PROFILEHOME', ''), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'varun'), ('XDG_SESSION_TYPE', 'wayland'), ('KONSOLE_VERSION', '211203'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/varun'), ('OLDPWD', '/home/varun'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('SHELL_SESSION_ID', '793f5e0ce8384842a403366358a6c3c4'), ('GTK_MODULES', 'gail:atk-bridge'), ('KONSOLE_DBUS_SESSION', '/Sessions/2'), ('MANAGERPID', '1788'), ('SYSTEMD_EXEC_PID', '2191'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '8394'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/varun/ros2workspace/install:/home/varun/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'varun'), ('WINDOWID', '20971527'), ('JOURNAL_STREAM', '8:34278'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('COLORFGBG', '15;0'), ('USERNAME', 'varun'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/varun/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/varun-Bravo-15-B5DD:@/tmp/.ICE-unix/2031,unix/varun-Bravo-15-B5DD:/tmp/.ICE-unix/2031'), ('INVOCATION_ID', '4ebe13d52d8b4280825140fee4587f58'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.88DWG2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/varun/ros2workspace/install/my_pkgpy:/home/varun/ros2workspace/install/my_pkgcpp:/home/varun/ros2_ws/install/my_py_pkg:/home/varun/ros2_ws/install/my_cpp_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('KONSOLE_DBUS_SERVICE', ':1.271'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/varun/ros2workspace/build/my_pkgcpp'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/varun/ros2workspace/install/my_pkgpy/lib/python3.10/site-packages:/home/varun/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/varun/ros2workspace/install/my_pkgcpp:/home/varun/ros2_ws/install/my_cpp_pkg:/home/varun/ros2workspace/install/my_pkgpy:/home/varun/ros2_ws/install/my_py_pkg:/opt/ros/humble')]), 'shell': False}
+[0.300642] (-) TimerEvent: {}
+[0.401012] (-) TimerEvent: {}
+[0.501553] (-) TimerEvent: {}
+[0.550465] (my_pkgcpp) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.551138] (my_pkgcpp) StdoutLine: {'line': b'-- Found rclcpp: 16.0.7 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.551256] (my_pkgcpp) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.551341] (my_pkgcpp) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.551491] (my_pkgcpp) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.551573] (my_pkgcpp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.551651] (my_pkgcpp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.551767] (my_pkgcpp) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.551860] (my_pkgcpp) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.552047] (my_robot_interfaces) JobProgress: {'identifier': 'my_robot_interfaces', 'progress': 'cmake'}
+[0.553030] (my_robot_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/varun/ros2workspace/src/my_robot_interfaces', '-DCMAKE_INSTALL_PREFIX=/home/varun/ros2workspace/install/my_robot_interfaces'], 'cwd': '/home/varun/ros2workspace/build/my_robot_interfaces', 'env': OrderedDict([('PROFILEHOME', ''), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'varun'), ('XDG_SESSION_TYPE', 'wayland'), ('KONSOLE_VERSION', '211203'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/varun'), ('OLDPWD', '/home/varun'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('SHELL_SESSION_ID', '793f5e0ce8384842a403366358a6c3c4'), ('GTK_MODULES', 'gail:atk-bridge'), ('KONSOLE_DBUS_SESSION', '/Sessions/2'), ('MANAGERPID', '1788'), ('SYSTEMD_EXEC_PID', '2191'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '8394'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/varun/ros2workspace/install:/home/varun/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'varun'), ('WINDOWID', '20971527'), ('JOURNAL_STREAM', '8:34278'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('COLORFGBG', '15;0'), ('USERNAME', 'varun'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/varun/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/varun-Bravo-15-B5DD:@/tmp/.ICE-unix/2031,unix/varun-Bravo-15-B5DD:/tmp/.ICE-unix/2031'), ('INVOCATION_ID', '4ebe13d52d8b4280825140fee4587f58'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.88DWG2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/varun/ros2workspace/install/my_pkgpy:/home/varun/ros2workspace/install/my_pkgcpp:/home/varun/ros2_ws/install/my_py_pkg:/home/varun/ros2_ws/install/my_cpp_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('KONSOLE_DBUS_SERVICE', ':1.271'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/varun/ros2workspace/build/my_robot_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/varun/ros2workspace/install/my_pkgpy/lib/python3.10/site-packages:/home/varun/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/varun/ros2workspace/install/my_pkgcpp:/home/varun/ros2_ws/install/my_cpp_pkg')]), 'shell': False}
+[0.563241] (my_robot_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.601662] (-) TimerEvent: {}
+[0.632640] (my_pkgcpp) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.669596] (my_robot_interfaces) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/ament_cmake_uninstall_target-extras.cmake:40 (add_custom_target):\n'}
+[0.669806] (my_robot_interfaces) StderrLine: {'line': b'  add_custom_target called with invalid target name\n'}
+[0.669900] (my_robot_interfaces) StderrLine: {'line': b'  "my_robot_interfaces/_uninstall".  Target names may not contain a slash.\n'}
+[0.669961] (my_robot_interfaces) StderrLine: {'line': b'  Use ADD_CUSTOM_COMMAND to generate files.\n'}
+[0.670019] (my_robot_interfaces) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.670094] (my_robot_interfaces) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)\n'}
+[0.670173] (my_robot_interfaces) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)\n'}
+[0.670257] (my_robot_interfaces) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)\n'}
+[0.670355] (my_robot_interfaces) StderrLine: {'line': b'  CMakeLists.txt:9 (find_package)\n'}
+[0.670414] (my_robot_interfaces) StderrLine: {'line': b'\n'}
+[0.670476] (my_robot_interfaces) StderrLine: {'line': b'\x1b[0m\n'}
+[0.674492] (my_robot_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.675848] (my_robot_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.677878] (my_robot_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.700533] (my_robot_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.701735] (-) TimerEvent: {}
+[0.801973] (-) TimerEvent: {}
+[0.819347] (my_pkgcpp) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.832279] (my_pkgcpp) StdoutLine: {'line': b'-- Generating done\n'}
+[0.833978] (my_pkgcpp) StdoutLine: {'line': b'-- Build files have been written to: /home/varun/ros2workspace/build/my_pkgcpp\n'}
+[0.847985] (my_robot_interfaces) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/humble/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:59 (message):\n'}
+[0.848194] (my_robot_interfaces) StderrLine: {'line': b'  execute_process(/usr/bin/python3.10 -m rosidl_adapter --package-name\n'}
+[0.848284] (my_robot_interfaces) StderrLine: {'line': b'  my_robot_interfaces/ --arguments-file\n'}
+[0.848367] (my_robot_interfaces) StderrLine: {'line': b'  /home/varun/ros2workspace/build/my_robot_interfaces/rosidl_adapter__arguments__my_robot_interfaces/.json\n'}
+[0.848434] (my_robot_interfaces) StderrLine: {'line': b'  --output-dir\n'}
+[0.848498] (my_robot_interfaces) StderrLine: {'line': b'  /home/varun/ros2workspace/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces/\n'}
+[0.848565] (my_robot_interfaces) StderrLine: {'line': b'  --output-file\n'}
+[0.848640] (my_robot_interfaces) StderrLine: {'line': b'  /home/varun/ros2workspace/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces/.idls)\n'}
+[0.848752] (my_robot_interfaces) StderrLine: {'line': b'  returned error code 1:\n'}
+[0.848834] (my_robot_interfaces) StderrLine: {'line': b'\n'}
+[0.848893] (my_robot_interfaces) StderrLine: {'line': b'  Traceback (most recent call last):\n'}
+[0.848956] (my_robot_interfaces) StderrLine: {'line': b'\n'}
+[0.849013] (my_robot_interfaces) StderrLine: {'line': b'    File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main\n'}
+[0.849070] (my_robot_interfaces) StderrLine: {'line': b'      return _run_code(code, main_globals, None,\n'}
+[0.849127] (my_robot_interfaces) StderrLine: {'line': b'    File "/usr/lib/python3.10/runpy.py", line 86, in _run_code\n'}
+[0.849183] (my_robot_interfaces) StderrLine: {'line': b'      exec(code, run_globals)\n'}
+[0.849238] (my_robot_interfaces) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__main__.py", line 19, in <module>\n'}
+[0.849306] (my_robot_interfaces) StderrLine: {'line': b'      sys.exit(main())\n'}
+[0.849363] (my_robot_interfaces) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/main.py", line 53, in main\n'}
+[0.849419] (my_robot_interfaces) StderrLine: {'line': b'      abs_idl_file = convert_to_idl(\n'}
+[0.849474] (my_robot_interfaces) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__init__.py", line 19, in convert_to_idl\n'}
+[0.849529] (my_robot_interfaces) StderrLine: {'line': b'      return convert_msg_to_idl(\n'}
+[0.849584] (my_robot_interfaces) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/msg/__init__.py", line 28, in convert_msg_to_idl\n'}
+[0.849638] (my_robot_interfaces) StderrLine: {'line': b'      msg = parse_message_string(package_name, input_file.stem, content)\n'}
+[0.849692] (my_robot_interfaces) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 544, in parse_message_string\n'}
+[0.849746] (my_robot_interfaces) StderrLine: {'line': b'      msg = MessageSpecification(pkg_name, msg_name, fields, constants)\n'}
+[0.849800] (my_robot_interfaces) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 388, in __init__\n'}
+[0.849855] (my_robot_interfaces) StderrLine: {'line': b'      self.base_type = BaseType(\n'}
+[0.849909] (my_robot_interfaces) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 190, in __init__\n'}
+[0.849960] (my_robot_interfaces) StderrLine: {'line': b'      raise InvalidResourceName(type_string)\n'}
+[0.850005] (my_robot_interfaces) StderrLine: {'line': b'\n'}
+[0.850050] (my_robot_interfaces) StderrLine: {'line': b'  rosidl_adapter.parser.InvalidResourceName:\n'}
+[0.850097] (my_robot_interfaces) StderrLine: {'line': b'  my_robot_interfaces//HardwareStatus\n'}
+[0.850142] (my_robot_interfaces) StderrLine: {'line': b'\n'}
+[0.850187] (my_robot_interfaces) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.850231] (my_robot_interfaces) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)\n'}
+[0.850276] (my_robot_interfaces) StderrLine: {'line': b'  CMakeLists.txt:12 (rosidl_generate_interfaces)\n'}
+[0.850321] (my_robot_interfaces) StderrLine: {'line': b'\n'}
+[0.850366] (my_robot_interfaces) StderrLine: {'line': b'\x1b[0m\n'}
+[0.850411] (my_robot_interfaces) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.850472] (my_robot_interfaces) StdoutLine: {'line': b'See also "/home/varun/ros2workspace/build/my_robot_interfaces/CMakeFiles/CMakeOutput.log".\n'}
+[0.852902] (my_robot_interfaces) CommandEnded: {'returncode': 1}
+[0.853406] (my_robot_interfaces) JobEnded: {'identifier': 'my_robot_interfaces', 'rc': 1}
+[0.859169] (my_pkgcpp) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cpp_node\x1b[0m\n'}
+[0.876503] (my_pkgcpp) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/cpp_node.dir/src/my_node.cpp.o\x1b[0m\n'}
+[0.902305] (-) TimerEvent: {}
+[0.932825] (my_pkgpy) JobEnded: {'identifier': 'my_pkgpy', 'rc': 'SIGINT'}
+[1.002424] (-) TimerEvent: {}
+[1.102686] (-) TimerEvent: {}
+[1.202947] (-) TimerEvent: {}
+[1.303237] (-) TimerEvent: {}
+[1.403530] (-) TimerEvent: {}
+[1.503835] (-) TimerEvent: {}
+[1.604158] (-) TimerEvent: {}
+[1.704455] (-) TimerEvent: {}
+[1.804759] (-) TimerEvent: {}
+[1.905054] (-) TimerEvent: {}
+[2.005353] (-) TimerEvent: {}
+[2.105634] (-) TimerEvent: {}
+[2.205947] (-) TimerEvent: {}
+[2.306212] (-) TimerEvent: {}
+[2.406505] (-) TimerEvent: {}
+[2.506804] (-) TimerEvent: {}
+[2.607084] (-) TimerEvent: {}
+[2.707368] (-) TimerEvent: {}
+[2.807650] (-) TimerEvent: {}
+[2.907941] (-) TimerEvent: {}
+[3.008199] (-) TimerEvent: {}
+[3.075779] (my_pkgcpp) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable cpp_node\x1b[0m\n'}
+[3.108302] (-) TimerEvent: {}
+[3.192920] (my_pkgcpp) StdoutLine: {'line': b'[100%] Built target cpp_node\n'}
+[3.202935] (my_pkgcpp) JobEnded: {'identifier': 'my_pkgcpp', 'rc': 'SIGINT'}
+[3.208523] (-) TimerEvent: {}
+[3.213559] (-) EventReactorShutdown: {}

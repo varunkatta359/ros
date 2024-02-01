@@ -1,0 +1,18 @@
+[1.027s] Invoking command in '/home/varun/ros2workspace/build/turtlesim_catch_them_all': CMAKE_PREFIX_PATH=/home/varun/ros2workspace/install/my_robot_interfaces:/home/varun/ros2workspace/install/my_robot_bringup:/home/varun/ros2workspace/install/my_pkgcpp:/home/varun/ros2_ws/install/my_cpp_pkg PYTHONPATH=/home/varun/ros2workspace/build/turtlesim_catch_them_all/prefix_override:/home/varun/ros2workspace/install/turtlesim_catch_them_all/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/varun/ros2workspace/build/turtlesim_catch_them_all/build --no-deps install_data
+[1.372s] running develop
+[1.598s] running egg_info
+[1.598s] writing turtlesim_catch_them_all.egg-info/PKG-INFO
+[1.599s] writing dependency_links to turtlesim_catch_them_all.egg-info/dependency_links.txt
+[1.599s] writing entry points to turtlesim_catch_them_all.egg-info/entry_points.txt
+[1.599s] writing requirements to turtlesim_catch_them_all.egg-info/requires.txt
+[1.599s] writing top-level names to turtlesim_catch_them_all.egg-info/top_level.txt
+[1.601s] reading manifest file 'turtlesim_catch_them_all.egg-info/SOURCES.txt'
+[1.602s] writing manifest file 'turtlesim_catch_them_all.egg-info/SOURCES.txt'
+[1.604s] running build_ext
+[1.604s] Creating /home/varun/ros2workspace/install/turtlesim_catch_them_all/lib/python3.10/site-packages/turtlesim-catch-them-all.egg-link (link to .)
+[1.605s] Installing turtle_spawnnerr script to /home/varun/ros2workspace/install/turtlesim_catch_them_all/lib/turtlesim_catch_them_all
+[1.605s] Installing turtlee_controller script to /home/varun/ros2workspace/install/turtlesim_catch_them_all/lib/turtlesim_catch_them_all
+[1.605s] 
+[1.606s] Installed /home/varun/ros2workspace/build/turtlesim_catch_them_all
+[1.606s] running install_data
+[1.641s] Invoked command in '/home/varun/ros2workspace/build/turtlesim_catch_them_all' returned '0': CMAKE_PREFIX_PATH=/home/varun/ros2workspace/install/my_robot_interfaces:/home/varun/ros2workspace/install/my_robot_bringup:/home/varun/ros2workspace/install/my_pkgcpp:/home/varun/ros2_ws/install/my_cpp_pkg PYTHONPATH=/home/varun/ros2workspace/build/turtlesim_catch_them_all/prefix_override:/home/varun/ros2workspace/install/turtlesim_catch_them_all/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/varun/ros2workspace/build/turtlesim_catch_them_all/build --no-deps install_data

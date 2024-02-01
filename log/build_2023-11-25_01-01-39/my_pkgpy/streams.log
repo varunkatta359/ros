@@ -1,0 +1,24 @@
+[0.641s] Invoking command in '/home/varun/ros2workspace/build/my_pkgpy': PYTHONPATH=/home/varun/ros2workspace/build/my_pkgpy/prefix_override:/home/varun/ros2workspace/install/my_pkgpy/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/varun/ros2workspace/build/my_pkgpy/build --no-deps install_data
+[0.852s] running develop
+[0.994s] running egg_info
+[0.994s] writing my_pkgpy.egg-info/PKG-INFO
+[0.994s] writing dependency_links to my_pkgpy.egg-info/dependency_links.txt
+[0.994s] writing entry points to my_pkgpy.egg-info/entry_points.txt
+[0.994s] writing requirements to my_pkgpy.egg-info/requires.txt
+[0.994s] writing top-level names to my_pkgpy.egg-info/top_level.txt
+[0.996s] reading manifest file 'my_pkgpy.egg-info/SOURCES.txt'
+[0.997s] writing manifest file 'my_pkgpy.egg-info/SOURCES.txt'
+[0.998s] running build_ext
+[0.998s] Creating /home/varun/ros2workspace/install/my_pkgpy/lib/python3.10/site-packages/my-pkgpy.egg-link (link to .)
+[0.998s] Installing Add_two_integers_client script to /home/varun/ros2workspace/install/my_pkgpy/lib/my_pkgpy
+[0.999s] Installing Add_two_integers_client_no_opp script to /home/varun/ros2workspace/install/my_pkgpy/lib/my_pkgpy
+[0.999s] Installing Add_two_integers_server script to /home/varun/ros2workspace/install/my_pkgpy/lib/my_pkgpy
+[0.999s] Installing number_counter script to /home/varun/ros2workspace/install/my_pkgpy/lib/my_pkgpy
+[0.999s] Installing number_publish script to /home/varun/ros2workspace/install/my_pkgpy/lib/my_pkgpy
+[0.999s] Installing py_node script to /home/varun/ros2workspace/install/my_pkgpy/lib/my_pkgpy
+[0.999s] Installing robot_news_station script to /home/varun/ros2workspace/install/my_pkgpy/lib/my_pkgpy
+[0.999s] Installing smartphone script to /home/varun/ros2workspace/install/my_pkgpy/lib/my_pkgpy
+[0.999s] 
+[0.999s] Installed /home/varun/ros2workspace/build/my_pkgpy
+[0.999s] running install_data
+[1.022s] Invoked command in '/home/varun/ros2workspace/build/my_pkgpy' returned '0': PYTHONPATH=/home/varun/ros2workspace/build/my_pkgpy/prefix_override:/home/varun/ros2workspace/install/my_pkgpy/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/varun/ros2workspace/build/my_pkgpy/build --no-deps install_data

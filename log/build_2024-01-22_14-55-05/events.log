@@ -1,0 +1,66 @@
+[0.000000] (-) TimerEvent: {}
+[0.000646] (-) JobUnselected: {'identifier': 'my_pkgcpp'}
+[0.002441] (-) JobUnselected: {'identifier': 'my_robot_interfaces'}
+[0.002532] (my_pkgpy) JobQueued: {'identifier': 'my_pkgpy', 'dependencies': OrderedDict([('my_robot_interfaces', '/home/varun/ros2workspace/install/my_robot_interfaces')])}
+[0.002602] (my_pkgpy) JobStarted: {'identifier': 'my_pkgpy'}
+[0.099458] (-) TimerEvent: {}
+[0.200343] (-) TimerEvent: {}
+[0.300790] (-) TimerEvent: {}
+[0.401141] (-) TimerEvent: {}
+[0.501556] (-) TimerEvent: {}
+[0.601931] (-) TimerEvent: {}
+[0.702306] (-) TimerEvent: {}
+[0.802714] (-) TimerEvent: {}
+[0.903140] (-) TimerEvent: {}
+[1.003578] (-) TimerEvent: {}
+[1.105406] (-) TimerEvent: {}
+[1.205911] (-) TimerEvent: {}
+[1.306323] (-) TimerEvent: {}
+[1.406768] (-) TimerEvent: {}
+[1.507201] (-) TimerEvent: {}
+[1.607630] (-) TimerEvent: {}
+[1.708058] (-) TimerEvent: {}
+[1.808489] (-) TimerEvent: {}
+[1.908920] (-) TimerEvent: {}
+[1.989359] (my_pkgpy) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/my_pkgpy', 'build', '--build-base', '/home/varun/ros2workspace/build/my_pkgpy/build', 'install', '--record', '/home/varun/ros2workspace/build/my_pkgpy/install.log', '--single-version-externally-managed'], 'cwd': '/home/varun/ros2workspace/src/my_pkgpy', 'env': {'PROFILEHOME': '', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_IN:en', 'USER': 'varun', 'XDG_SESSION_TYPE': 'wayland', 'KONSOLE_VERSION': '211203', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/varun/ros2workspace/install/my_robot_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/varun', 'OLDPWD': '/home/varun/ros2workspace/src/my_pkgpy/my_pkgpy', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'SHELL_SESSION_ID': '4f51ee62b62e45e491980ec79b6a69be', 'GTK_MODULES': 'gail:atk-bridge', 'KONSOLE_DBUS_SESSION': '/Sessions/2', 'MANAGERPID': '1788', 'SYSTEMD_EXEC_PID': '2231', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '32950', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/varun/ros2workspace/install:/home/varun/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'varun', 'WINDOWID': '37748743', 'JOURNAL_STREAM': '8:42124', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'COLORFGBG': '15;0', 'USERNAME': 'varun', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/varun/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/varun-Bravo-15-B5DD:@/tmp/.ICE-unix/2009,unix/varun-Bravo-15-B5DD:/tmp/.ICE-unix/2009', 'INVOCATION_ID': '12715e9702aa40a1bfbabf16cc4dae6a', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.4XLPH2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/varun/ros2workspace/install/my_pkgpy:/home/varun/ros2workspace/install/my_robot_interfaces:/home/varun/ros2workspace/install/my_pkgcpp:/home/varun/ros2_ws/install/my_py_pkg:/home/varun/ros2_ws/install/my_cpp_pkg:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'KONSOLE_DBUS_SERVICE': ':1.1360', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/varun/ros2workspace/build/my_pkgpy', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/varun/ros2workspace/build/my_pkgpy/prefix_override:/home/varun/ros2workspace/install/my_pkgpy/lib/python3.10/site-packages:/home/varun/ros2workspace/install/my_pkgpy/lib/python3.10/site-packages:/home/varun/ros2workspace/install/my_robot_interfaces/local/lib/python3.10/dist-packages:/home/varun/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/varun/ros2workspace/install/my_robot_interfaces:/home/varun/ros2workspace/install/my_pkgcpp:/home/varun/ros2_ws/install/my_cpp_pkg'}, 'shell': False}
+[2.009058] (-) TimerEvent: {}
+[2.109444] (-) TimerEvent: {}
+[2.209877] (-) TimerEvent: {}
+[2.310344] (-) TimerEvent: {}
+[2.410768] (-) TimerEvent: {}
+[2.511203] (-) TimerEvent: {}
+[2.611633] (-) TimerEvent: {}
+[2.617478] (my_pkgpy) StdoutLine: {'line': b'running egg_info\n'}
+[2.619090] (my_pkgpy) StdoutLine: {'line': b'writing ../../build/my_pkgpy/my_pkgpy.egg-info/PKG-INFO\n'}
+[2.619603] (my_pkgpy) StdoutLine: {'line': b'writing dependency_links to ../../build/my_pkgpy/my_pkgpy.egg-info/dependency_links.txt\n'}
+[2.620123] (my_pkgpy) StdoutLine: {'line': b'writing entry points to ../../build/my_pkgpy/my_pkgpy.egg-info/entry_points.txt\n'}
+[2.620614] (my_pkgpy) StdoutLine: {'line': b'writing requirements to ../../build/my_pkgpy/my_pkgpy.egg-info/requires.txt\n'}
+[2.621023] (my_pkgpy) StdoutLine: {'line': b'writing top-level names to ../../build/my_pkgpy/my_pkgpy.egg-info/top_level.txt\n'}
+[2.625167] (my_pkgpy) StdoutLine: {'line': b"reading manifest file '../../build/my_pkgpy/my_pkgpy.egg-info/SOURCES.txt'\n"}
+[2.627313] (my_pkgpy) StdoutLine: {'line': b"writing manifest file '../../build/my_pkgpy/my_pkgpy.egg-info/SOURCES.txt'\n"}
+[2.627754] (my_pkgpy) StdoutLine: {'line': b'running build\n'}
+[2.627946] (my_pkgpy) StdoutLine: {'line': b'running build_py\n'}
+[2.629666] (my_pkgpy) StdoutLine: {'line': b'running install\n'}
+[2.630389] (my_pkgpy) StdoutLine: {'line': b'running install_lib\n'}
+[2.634410] (my_pkgpy) StdoutLine: {'line': b'running install_data\n'}
+[2.635385] (my_pkgpy) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.638821] (my_pkgpy) StdoutLine: {'line': b"removing '/home/varun/ros2workspace/install/my_pkgpy/lib/python3.10/site-packages/my_pkgpy-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[2.639872] (my_pkgpy) StdoutLine: {'line': b'Copying ../../build/my_pkgpy/my_pkgpy.egg-info to /home/varun/ros2workspace/install/my_pkgpy/lib/python3.10/site-packages/my_pkgpy-0.0.0-py3.10.egg-info\n'}
+[2.642312] (my_pkgpy) StdoutLine: {'line': b'running install_scripts\n'}
+[2.684147] (my_pkgpy) StdoutLine: {'line': b'Installing Add_two_integers_client script to /home/varun/ros2workspace/install/my_pkgpy/lib/my_pkgpy\n'}
+[2.684616] (my_pkgpy) StdoutLine: {'line': b'Installing Add_two_integers_client_no_opp script to /home/varun/ros2workspace/install/my_pkgpy/lib/my_pkgpy\n'}
+[2.684951] (my_pkgpy) StdoutLine: {'line': b'Installing Add_two_integers_server script to /home/varun/ros2workspace/install/my_pkgpy/lib/my_pkgpy\n'}
+[2.685232] (my_pkgpy) StdoutLine: {'line': b'Installing Hw_status_publihser script to /home/varun/ros2workspace/install/my_pkgpy/lib/my_pkgpy\n'}
+[2.685496] (my_pkgpy) StdoutLine: {'line': b'Installing Led_states_publisher script to /home/varun/ros2workspace/install/my_pkgpy/lib/my_pkgpy\n'}
+[2.685935] (my_pkgpy) StdoutLine: {'line': b'Installing battery_client script to /home/varun/ros2workspace/install/my_pkgpy/lib/my_pkgpy\n'}
+[2.686284] (my_pkgpy) StdoutLine: {'line': b'Installing number_counter script to /home/varun/ros2workspace/install/my_pkgpy/lib/my_pkgpy\n'}
+[2.686592] (my_pkgpy) StdoutLine: {'line': b'Installing number_publish script to /home/varun/ros2workspace/install/my_pkgpy/lib/my_pkgpy\n'}
+[2.686968] (my_pkgpy) StdoutLine: {'line': b'Installing py_node script to /home/varun/ros2workspace/install/my_pkgpy/lib/my_pkgpy\n'}
+[2.687330] (my_pkgpy) StdoutLine: {'line': b'Installing robot_news_station script to /home/varun/ros2workspace/install/my_pkgpy/lib/my_pkgpy\n'}
+[2.687726] (my_pkgpy) StdoutLine: {'line': b'Installing smartphone script to /home/varun/ros2workspace/install/my_pkgpy/lib/my_pkgpy\n'}
+[2.688914] (my_pkgpy) StdoutLine: {'line': b"writing list of installed files to '/home/varun/ros2workspace/build/my_pkgpy/install.log'\n"}
+[2.711777] (-) TimerEvent: {}
+[2.734731] (my_pkgpy) CommandEnded: {'returncode': 0}
+[2.811930] (-) TimerEvent: {}
+[2.876554] (my_pkgpy) JobEnded: {'identifier': 'my_pkgpy', 'rc': 0}
+[2.878262] (-) EventReactorShutdown: {}

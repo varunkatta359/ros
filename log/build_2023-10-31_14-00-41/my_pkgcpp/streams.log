@@ -1,0 +1,20 @@
+[0.159s] Invoking command in '/home/varun/ros2workspace/build/my_pkgcpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/varun/ros2workspace/install/my_pkgpy:/home/varun/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/varun/ros2workspace/build/my_pkgcpp -- -j12 -l12
+[0.475s] Invoked command in '/home/varun/ros2workspace/build/my_pkgcpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/varun/ros2workspace/install/my_pkgpy:/home/varun/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/varun/ros2workspace/build/my_pkgcpp -- -j12 -l12
+[0.512s] Invoking command in '/home/varun/ros2workspace/build/my_pkgcpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/varun/ros2workspace/install/my_pkgpy:/home/varun/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/varun/ros2workspace/build/my_pkgcpp
+[0.522s] -- Install configuration: ""
+[0.523s] -- Up-to-date: /home/varun/ros2workspace/install/my_pkgcpp/share/ament_index/resource_index/package_run_dependencies/my_pkgcpp
+[0.523s] -- Up-to-date: /home/varun/ros2workspace/install/my_pkgcpp/share/ament_index/resource_index/parent_prefix_path/my_pkgcpp
+[0.523s] -- Up-to-date: /home/varun/ros2workspace/install/my_pkgcpp/share/my_pkgcpp/environment/ament_prefix_path.sh
+[0.523s] -- Up-to-date: /home/varun/ros2workspace/install/my_pkgcpp/share/my_pkgcpp/environment/ament_prefix_path.dsv
+[0.523s] -- Up-to-date: /home/varun/ros2workspace/install/my_pkgcpp/share/my_pkgcpp/environment/path.sh
+[0.523s] -- Up-to-date: /home/varun/ros2workspace/install/my_pkgcpp/share/my_pkgcpp/environment/path.dsv
+[0.523s] -- Up-to-date: /home/varun/ros2workspace/install/my_pkgcpp/share/my_pkgcpp/local_setup.bash
+[0.524s] -- Up-to-date: /home/varun/ros2workspace/install/my_pkgcpp/share/my_pkgcpp/local_setup.sh
+[0.524s] -- Up-to-date: /home/varun/ros2workspace/install/my_pkgcpp/share/my_pkgcpp/local_setup.zsh
+[0.524s] -- Up-to-date: /home/varun/ros2workspace/install/my_pkgcpp/share/my_pkgcpp/local_setup.dsv
+[0.524s] -- Installing: /home/varun/ros2workspace/install/my_pkgcpp/share/my_pkgcpp/package.dsv
+[0.524s] -- Up-to-date: /home/varun/ros2workspace/install/my_pkgcpp/share/ament_index/resource_index/packages/my_pkgcpp
+[0.524s] -- Up-to-date: /home/varun/ros2workspace/install/my_pkgcpp/share/my_pkgcpp/cmake/my_pkgcppConfig.cmake
+[0.524s] -- Up-to-date: /home/varun/ros2workspace/install/my_pkgcpp/share/my_pkgcpp/cmake/my_pkgcppConfig-version.cmake
+[0.524s] -- Up-to-date: /home/varun/ros2workspace/install/my_pkgcpp/share/my_pkgcpp/package.xml
+[0.528s] Invoked command in '/home/varun/ros2workspace/build/my_pkgcpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/varun/ros2workspace/install/my_pkgpy:/home/varun/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/varun/ros2workspace/build/my_pkgcpp

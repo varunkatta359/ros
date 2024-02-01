@@ -1,0 +1,29 @@
+[0.647s] Invoking command in '/home/varun/ros2workspace/build/my_pkgpy': PYTHONPATH=/home/varun/ros2workspace/build/my_pkgpy/prefix_override:/home/varun/ros2workspace/install/my_pkgpy/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/varun/ros2workspace/build/my_pkgpy/build
+[0.880s] running develop
+[1.037s] Removing /home/varun/ros2workspace/install/my_pkgpy/lib/python3.10/site-packages/my-pkgpy.egg-link (link to .)
+[1.064s] Invoked command in '/home/varun/ros2workspace/build/my_pkgpy' returned '0': PYTHONPATH=/home/varun/ros2workspace/build/my_pkgpy/prefix_override:/home/varun/ros2workspace/install/my_pkgpy/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/varun/ros2workspace/build/my_pkgpy/build
+[1.065s] Invoking command in '/home/varun/ros2workspace/src/my_pkgpy': PYTHONPATH=/home/varun/ros2workspace/build/my_pkgpy/prefix_override:/home/varun/ros2workspace/install/my_pkgpy/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_pkgpy build --build-base /home/varun/ros2workspace/build/my_pkgpy/build install --record /home/varun/ros2workspace/build/my_pkgpy/install.log --single-version-externally-managed
+[1.269s] running egg_info
+[1.270s] writing ../../build/my_pkgpy/my_pkgpy.egg-info/PKG-INFO
+[1.270s] writing dependency_links to ../../build/my_pkgpy/my_pkgpy.egg-info/dependency_links.txt
+[1.270s] writing entry points to ../../build/my_pkgpy/my_pkgpy.egg-info/entry_points.txt
+[1.270s] writing requirements to ../../build/my_pkgpy/my_pkgpy.egg-info/requires.txt
+[1.271s] writing top-level names to ../../build/my_pkgpy/my_pkgpy.egg-info/top_level.txt
+[1.272s] reading manifest file '../../build/my_pkgpy/my_pkgpy.egg-info/SOURCES.txt'
+[1.272s] writing manifest file '../../build/my_pkgpy/my_pkgpy.egg-info/SOURCES.txt'
+[1.272s] running build
+[1.272s] running build_py
+[1.272s] copying my_pkgpy/node1.py -> /home/varun/ros2workspace/build/my_pkgpy/build/lib/my_pkgpy
+[1.272s] running install
+[1.273s] running install_lib
+[1.273s] copying /home/varun/ros2workspace/build/my_pkgpy/build/lib/my_pkgpy/node1.py -> /home/varun/ros2workspace/install/my_pkgpy/lib/python3.10/site-packages/my_pkgpy
+[1.273s] copying /home/varun/ros2workspace/build/my_pkgpy/build/lib/my_pkgpy/__init__.py -> /home/varun/ros2workspace/install/my_pkgpy/lib/python3.10/site-packages/my_pkgpy
+[1.274s] byte-compiling /home/varun/ros2workspace/install/my_pkgpy/lib/python3.10/site-packages/my_pkgpy/node1.py to node1.cpython-310.pyc
+[1.274s] byte-compiling /home/varun/ros2workspace/install/my_pkgpy/lib/python3.10/site-packages/my_pkgpy/__init__.py to __init__.cpython-310.pyc
+[1.274s] running install_data
+[1.274s] running install_egg_info
+[1.275s] Copying ../../build/my_pkgpy/my_pkgpy.egg-info to /home/varun/ros2workspace/install/my_pkgpy/lib/python3.10/site-packages/my_pkgpy-0.0.0-py3.10.egg-info
+[1.276s] running install_scripts
+[1.290s] Installing py_node script to /home/varun/ros2workspace/install/my_pkgpy/lib/my_pkgpy
+[1.290s] writing list of installed files to '/home/varun/ros2workspace/build/my_pkgpy/install.log'
+[1.306s] Invoked command in '/home/varun/ros2workspace/src/my_pkgpy' returned '0': PYTHONPATH=/home/varun/ros2workspace/build/my_pkgpy/prefix_override:/home/varun/ros2workspace/install/my_pkgpy/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_pkgpy build --build-base /home/varun/ros2workspace/build/my_pkgpy/build install --record /home/varun/ros2workspace/build/my_pkgpy/install.log --single-version-externally-managed

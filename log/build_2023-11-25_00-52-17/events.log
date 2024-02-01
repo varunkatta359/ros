@@ -1,0 +1,47 @@
+[0.000000] (-) TimerEvent: {}
+[0.000194] (-) JobUnselected: {'identifier': 'my_pkgcpp'}
+[0.000231] (my_pkgpy) JobQueued: {'identifier': 'my_pkgpy', 'dependencies': OrderedDict()}
+[0.000257] (my_pkgpy) JobStarted: {'identifier': 'my_pkgpy'}
+[0.099417] (-) TimerEvent: {}
+[0.199647] (-) TimerEvent: {}
+[0.300363] (-) TimerEvent: {}
+[0.400620] (-) TimerEvent: {}
+[0.500880] (-) TimerEvent: {}
+[0.601165] (-) TimerEvent: {}
+[0.701435] (-) TimerEvent: {}
+[0.737499] (my_pkgpy) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/my_pkgpy', 'build', '--build-base', '/home/varun/ros2workspace/build/my_pkgpy/build', 'install', '--record', '/home/varun/ros2workspace/build/my_pkgpy/install.log', '--single-version-externally-managed'], 'cwd': '/home/varun/ros2workspace/src/my_pkgpy', 'env': {'PROFILEHOME': '', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_IN:en', 'USER': 'varun', 'XDG_SESSION_TYPE': 'wayland', 'KONSOLE_VERSION': '211203', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/varun', 'OLDPWD': '/home/varun', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'SHELL_SESSION_ID': 'e46aafc15f774da1842939c35ae1f55c', 'GTK_MODULES': 'gail:atk-bridge', 'KONSOLE_DBUS_SESSION': '/Sessions/2', 'MANAGERPID': '1763', 'SYSTEMD_EXEC_PID': '2146', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '46223', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/varun/ros2workspace/install:/home/varun/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'varun', 'WINDOWID': '37748743', 'JOURNAL_STREAM': '8:30687', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'COLORFGBG': '15;0', 'USERNAME': 'varun', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/varun/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/varun-Bravo-15-B5DD:@/tmp/.ICE-unix/1986,unix/varun-Bravo-15-B5DD:/tmp/.ICE-unix/1986', 'INVOCATION_ID': '402c13c205274938ae92dba5673b9b9a', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.9ZLCE2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/varun/ros2workspace/install/my_pkgpy:/home/varun/ros2workspace/install/my_pkgcpp:/home/varun/ros2_ws/install/my_py_pkg:/home/varun/ros2_ws/install/my_cpp_pkg:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'KONSOLE_DBUS_SERVICE': ':1.2285', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/varun/ros2workspace/build/my_pkgpy', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/varun/ros2workspace/build/my_pkgpy/prefix_override:/home/varun/ros2workspace/install/my_pkgpy/lib/python3.10/site-packages:/home/varun/ros2workspace/install/my_pkgpy/lib/python3.10/site-packages:/home/varun/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/varun/ros2workspace/install/my_pkgcpp:/home/varun/ros2_ws/install/my_cpp_pkg'}, 'shell': False}
+[0.801557] (-) TimerEvent: {}
+[0.901830] (-) TimerEvent: {}
+[0.938878] (my_pkgpy) StdoutLine: {'line': b'running egg_info\n'}
+[0.939329] (my_pkgpy) StdoutLine: {'line': b'writing ../../build/my_pkgpy/my_pkgpy.egg-info/PKG-INFO\n'}
+[0.940578] (my_pkgpy) StdoutLine: {'line': b'writing dependency_links to ../../build/my_pkgpy/my_pkgpy.egg-info/dependency_links.txt\n'}
+[0.940895] (my_pkgpy) StdoutLine: {'line': b'writing entry points to ../../build/my_pkgpy/my_pkgpy.egg-info/entry_points.txt\n'}
+[0.940998] (my_pkgpy) StdoutLine: {'line': b'writing requirements to ../../build/my_pkgpy/my_pkgpy.egg-info/requires.txt\n'}
+[0.941068] (my_pkgpy) StdoutLine: {'line': b'writing top-level names to ../../build/my_pkgpy/my_pkgpy.egg-info/top_level.txt\n'}
+[0.942079] (my_pkgpy) StdoutLine: {'line': b"reading manifest file '../../build/my_pkgpy/my_pkgpy.egg-info/SOURCES.txt'\n"}
+[0.942943] (my_pkgpy) StdoutLine: {'line': b"writing manifest file '../../build/my_pkgpy/my_pkgpy.egg-info/SOURCES.txt'\n"}
+[0.943091] (my_pkgpy) StdoutLine: {'line': b'running build\n'}
+[0.943165] (my_pkgpy) StdoutLine: {'line': b'running build_py\n'}
+[0.943443] (my_pkgpy) StdoutLine: {'line': b'copying my_pkgpy/number_counter.py -> /home/varun/ros2workspace/build/my_pkgpy/build/lib/my_pkgpy\n'}
+[0.943807] (my_pkgpy) StdoutLine: {'line': b'running install\n'}
+[0.944018] (my_pkgpy) StdoutLine: {'line': b'running install_lib\n'}
+[0.944703] (my_pkgpy) StdoutLine: {'line': b'copying /home/varun/ros2workspace/build/my_pkgpy/build/lib/my_pkgpy/number_counter.py -> /home/varun/ros2workspace/install/my_pkgpy/lib/python3.10/site-packages/my_pkgpy\n'}
+[0.945764] (my_pkgpy) StdoutLine: {'line': b'byte-compiling /home/varun/ros2workspace/install/my_pkgpy/lib/python3.10/site-packages/my_pkgpy/number_counter.py to number_counter.cpython-310.pyc\n'}
+[0.946275] (my_pkgpy) StdoutLine: {'line': b'running install_data\n'}
+[0.946659] (my_pkgpy) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.947752] (my_pkgpy) StdoutLine: {'line': b"removing '/home/varun/ros2workspace/install/my_pkgpy/lib/python3.10/site-packages/my_pkgpy-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[0.948056] (my_pkgpy) StdoutLine: {'line': b'Copying ../../build/my_pkgpy/my_pkgpy.egg-info to /home/varun/ros2workspace/install/my_pkgpy/lib/python3.10/site-packages/my_pkgpy-0.0.0-py3.10.egg-info\n'}
+[0.949099] (my_pkgpy) StdoutLine: {'line': b'running install_scripts\n'}
+[0.962892] (my_pkgpy) StdoutLine: {'line': b'Installing Add_two_integers_client script to /home/varun/ros2workspace/install/my_pkgpy/lib/my_pkgpy\n'}
+[0.963013] (my_pkgpy) StdoutLine: {'line': b'Installing Add_two_integers_client_no_opp script to /home/varun/ros2workspace/install/my_pkgpy/lib/my_pkgpy\n'}
+[0.963161] (my_pkgpy) StdoutLine: {'line': b'Installing Add_two_integers_server script to /home/varun/ros2workspace/install/my_pkgpy/lib/my_pkgpy\n'}
+[0.963304] (my_pkgpy) StdoutLine: {'line': b'Installing number_counter script to /home/varun/ros2workspace/install/my_pkgpy/lib/my_pkgpy\n'}
+[0.963400] (my_pkgpy) StdoutLine: {'line': b'Installing number_publish script to /home/varun/ros2workspace/install/my_pkgpy/lib/my_pkgpy\n'}
+[0.963487] (my_pkgpy) StdoutLine: {'line': b'Installing py_node script to /home/varun/ros2workspace/install/my_pkgpy/lib/my_pkgpy\n'}
+[0.963561] (my_pkgpy) StdoutLine: {'line': b'Installing robot_news_station script to /home/varun/ros2workspace/install/my_pkgpy/lib/my_pkgpy\n'}
+[0.963621] (my_pkgpy) StdoutLine: {'line': b'Installing smartphone script to /home/varun/ros2workspace/install/my_pkgpy/lib/my_pkgpy\n'}
+[0.963839] (my_pkgpy) StdoutLine: {'line': b"writing list of installed files to '/home/varun/ros2workspace/build/my_pkgpy/install.log'\n"}
+[0.980359] (my_pkgpy) CommandEnded: {'returncode': 0}
+[1.002083] (-) TimerEvent: {}
+[1.054942] (my_pkgpy) JobEnded: {'identifier': 'my_pkgpy', 'rc': 0}
+[1.055507] (-) EventReactorShutdown: {}

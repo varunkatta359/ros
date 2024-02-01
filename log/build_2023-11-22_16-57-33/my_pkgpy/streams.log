@@ -1,0 +1,32 @@
+[0.687s] Invoking command in '/home/varun/ros2workspace/src/my_pkgpy': PYTHONPATH=/home/varun/ros2workspace/build/my_pkgpy/prefix_override:/home/varun/ros2workspace/install/my_pkgpy/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_pkgpy build --build-base /home/varun/ros2workspace/build/my_pkgpy/build install --record /home/varun/ros2workspace/build/my_pkgpy/install.log --single-version-externally-managed
+[0.902s] running egg_info
+[0.903s] writing ../../build/my_pkgpy/my_pkgpy.egg-info/PKG-INFO
+[0.903s] writing dependency_links to ../../build/my_pkgpy/my_pkgpy.egg-info/dependency_links.txt
+[0.903s] writing entry points to ../../build/my_pkgpy/my_pkgpy.egg-info/entry_points.txt
+[0.903s] writing requirements to ../../build/my_pkgpy/my_pkgpy.egg-info/requires.txt
+[0.903s] writing top-level names to ../../build/my_pkgpy/my_pkgpy.egg-info/top_level.txt
+[0.904s] reading manifest file '../../build/my_pkgpy/my_pkgpy.egg-info/SOURCES.txt'
+[0.905s] writing manifest file '../../build/my_pkgpy/my_pkgpy.egg-info/SOURCES.txt'
+[0.905s] running build
+[0.905s] running build_py
+[0.905s] copying my_pkgpy/add_two_ints_client_no_opp.py -> /home/varun/ros2workspace/build/my_pkgpy/build/lib/my_pkgpy
+[0.905s] copying my_pkgpy/add_two_ints_client_opp.py -> /home/varun/ros2workspace/build/my_pkgpy/build/lib/my_pkgpy
+[0.906s] running install
+[0.906s] running install_lib
+[0.906s] copying /home/varun/ros2workspace/build/my_pkgpy/build/lib/my_pkgpy/add_two_ints_client_no_opp.py -> /home/varun/ros2workspace/install/my_pkgpy/lib/python3.10/site-packages/my_pkgpy
+[0.907s] copying /home/varun/ros2workspace/build/my_pkgpy/build/lib/my_pkgpy/add_two_ints_client_opp.py -> /home/varun/ros2workspace/install/my_pkgpy/lib/python3.10/site-packages/my_pkgpy
+[0.907s] byte-compiling /home/varun/ros2workspace/install/my_pkgpy/lib/python3.10/site-packages/my_pkgpy/add_two_ints_client_no_opp.py to add_two_ints_client_no_opp.cpython-310.pyc
+[0.907s] byte-compiling /home/varun/ros2workspace/install/my_pkgpy/lib/python3.10/site-packages/my_pkgpy/add_two_ints_client_opp.py to add_two_ints_client_opp.cpython-310.pyc
+[0.908s] running install_data
+[0.908s] running install_egg_info
+[0.909s] removing '/home/varun/ros2workspace/install/my_pkgpy/lib/python3.10/site-packages/my_pkgpy-0.0.0-py3.10.egg-info' (and everything under it)
+[0.909s] Copying ../../build/my_pkgpy/my_pkgpy.egg-info to /home/varun/ros2workspace/install/my_pkgpy/lib/python3.10/site-packages/my_pkgpy-0.0.0-py3.10.egg-info
+[0.910s] running install_scripts
+[0.925s] Installing Add_two_integers_client_no_opp script to /home/varun/ros2workspace/install/my_pkgpy/lib/my_pkgpy
+[0.925s] Installing Add_two_integers_server script to /home/varun/ros2workspace/install/my_pkgpy/lib/my_pkgpy
+[0.926s] Installing number_publish script to /home/varun/ros2workspace/install/my_pkgpy/lib/my_pkgpy
+[0.926s] Installing py_node script to /home/varun/ros2workspace/install/my_pkgpy/lib/my_pkgpy
+[0.926s] Installing robot_news_station script to /home/varun/ros2workspace/install/my_pkgpy/lib/my_pkgpy
+[0.926s] Installing smartphone script to /home/varun/ros2workspace/install/my_pkgpy/lib/my_pkgpy
+[0.926s] writing list of installed files to '/home/varun/ros2workspace/build/my_pkgpy/install.log'
+[0.945s] Invoked command in '/home/varun/ros2workspace/src/my_pkgpy' returned '0': PYTHONPATH=/home/varun/ros2workspace/build/my_pkgpy/prefix_override:/home/varun/ros2workspace/install/my_pkgpy/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_pkgpy build --build-base /home/varun/ros2workspace/build/my_pkgpy/build install --record /home/varun/ros2workspace/build/my_pkgpy/install.log --single-version-externally-managed

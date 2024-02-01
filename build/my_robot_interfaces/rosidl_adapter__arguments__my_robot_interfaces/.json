@@ -1,0 +1,6 @@
+{
+  "package_name": "my_robot_interfaces/",
+  "non_idl_tuples": [
+    "/home/varun/ros2workspace/src/my_robot_interfaces:msg/HardwareStatus.msg"
+  ]
+}

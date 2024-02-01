@@ -1,0 +1,18 @@
+[0.660s] Invoking command in '/home/varun/ros2workspace/build/my_pkgpy': PYTHONPATH=/home/varun/ros2workspace/build/my_pkgpy/prefix_override:/home/varun/ros2workspace/install/my_pkgpy/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/varun/ros2workspace/build/my_pkgpy/build --no-deps install_data
+[0.874s] running develop
+[1.015s] running egg_info
+[1.015s] writing my_pkgpy.egg-info/PKG-INFO
+[1.015s] writing dependency_links to my_pkgpy.egg-info/dependency_links.txt
+[1.016s] writing entry points to my_pkgpy.egg-info/entry_points.txt
+[1.016s] writing requirements to my_pkgpy.egg-info/requires.txt
+[1.016s] writing top-level names to my_pkgpy.egg-info/top_level.txt
+[1.017s] reading manifest file 'my_pkgpy.egg-info/SOURCES.txt'
+[1.018s] writing manifest file 'my_pkgpy.egg-info/SOURCES.txt'
+[1.019s] running build_ext
+[1.019s] Creating /home/varun/ros2workspace/install/my_pkgpy/lib/python3.10/site-packages/my-pkgpy.egg-link (link to .)
+[1.019s] Installing py_node script to /home/varun/ros2workspace/install/my_pkgpy/lib/my_pkgpy
+[1.020s] Installing robot_news_station script to /home/varun/ros2workspace/install/my_pkgpy/lib/my_pkgpy
+[1.020s] 
+[1.020s] Installed /home/varun/ros2workspace/build/my_pkgpy
+[1.020s] running install_data
+[1.044s] Invoked command in '/home/varun/ros2workspace/build/my_pkgpy' returned '0': PYTHONPATH=/home/varun/ros2workspace/build/my_pkgpy/prefix_override:/home/varun/ros2workspace/install/my_pkgpy/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/varun/ros2workspace/build/my_pkgpy/build --no-deps install_data

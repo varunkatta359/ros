@@ -1,0 +1,17 @@
+[0.740s] Invoking command in '/home/varun/ros2workspace/build/my_pkgpy': PYTHONPATH=/home/varun/ros2workspace/build/my_pkgpy/prefix_override:/home/varun/ros2workspace/install/my_pkgpy/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/varun/ros2workspace/build/my_pkgpy/build --no-deps install_data
+[0.950s] running develop
+[1.086s] running egg_info
+[1.086s] writing my_pkgpy.egg-info/PKG-INFO
+[1.089s] writing dependency_links to my_pkgpy.egg-info/dependency_links.txt
+[1.089s] writing entry points to my_pkgpy.egg-info/entry_points.txt
+[1.089s] writing requirements to my_pkgpy.egg-info/requires.txt
+[1.089s] writing top-level names to my_pkgpy.egg-info/top_level.txt
+[1.090s] reading manifest file 'my_pkgpy.egg-info/SOURCES.txt'
+[1.091s] writing manifest file 'my_pkgpy.egg-info/SOURCES.txt'
+[1.092s] running build_ext
+[1.092s] Creating /home/varun/ros2workspace/install/my_pkgpy/lib/python3.10/site-packages/my-pkgpy.egg-link (link to .)
+[1.092s] Installing py_node script to /home/varun/ros2workspace/install/my_pkgpy/lib/my_pkgpy
+[1.093s] 
+[1.093s] Installed /home/varun/ros2workspace/build/my_pkgpy
+[1.093s] running install_data
+[1.113s] Invoked command in '/home/varun/ros2workspace/build/my_pkgpy' returned '0': PYTHONPATH=/home/varun/ros2workspace/build/my_pkgpy/prefix_override:/home/varun/ros2workspace/install/my_pkgpy/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/varun/ros2workspace/build/my_pkgpy/build --no-deps install_data

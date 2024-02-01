@@ -1,0 +1,13 @@
+[console_scripts]
+Add_two_integers_client = my_pkgpy.add_two_ints_client_opp:main
+Add_two_integers_client_no_opp = my_pkgpy.add_two_ints_client_no_opp:main
+Add_two_integers_server = my_pkgpy.add_two_ints_server:main
+Hw_status_publihser = my_pkgpy.hw_status_publisher:main
+Led_states_publisher = my_pkgpy.led_panel:main
+battery_client = my_pkgpy.battery_client:main
+number_counter = my_pkgpy.number_counter:main
+number_publish = my_pkgpy.number_publisher:main
+py_node = my_pkgpy.node1:main
+robot_news_station = my_pkgpy.robot_news_station:main
+smartphone = my_pkgpy.smartphone:main
+

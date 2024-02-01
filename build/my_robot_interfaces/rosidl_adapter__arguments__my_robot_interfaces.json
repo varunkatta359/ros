@@ -1,0 +1,12 @@
+{
+  "package_name": "my_robot_interfaces",
+  "non_idl_tuples": [
+    "/home/varun/ros2workspace/src/my_robot_interfaces:msg/HardwareStatus.msg",
+    "/home/varun/ros2workspace/src/my_robot_interfaces:srv/ComputeRectangleArea.srv",
+    "/home/varun/ros2workspace/src/my_robot_interfaces:msg/LedStateArray.msg",
+    "/home/varun/ros2workspace/src/my_robot_interfaces:srv/SetLed.srv",
+    "/home/varun/ros2workspace/src/my_robot_interfaces:msg/Turtle.msg",
+    "/home/varun/ros2workspace/src/my_robot_interfaces:msg/TurtleArray.msg",
+    "/home/varun/ros2workspace/src/my_robot_interfaces:srv/CatchTurtle.srv"
+  ]
+}
