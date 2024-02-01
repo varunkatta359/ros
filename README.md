@@ -4,6 +4,6 @@ The python package has all the python files
 <br>
 Here,The basics cover important topics like
 <br>
- publishing,subscribing,and service_client
+ publishing,subscribing,service_client
  <br>
  and the communication between them.
