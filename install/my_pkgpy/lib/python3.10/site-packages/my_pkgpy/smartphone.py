@@ -5,9 +5,9 @@ from rclpy.node import Node
 from example_interfaces.msg import String
 
 
-class SmartphoneNode(Node): # MODIFY NAME
+class SmartphoneNode(Node): 
     def __init__(self):
-        super().__init__("smartphone") # MODIFY NAME
+        super().__init__("smartphone") 
         self.subscriber_ = self.create_subscription(String, "robot_news", self.callback_robot_news, 10)
         self.get_logger().info("smartphone has been started")
  
@@ -17,7 +17,7 @@ class SmartphoneNode(Node): # MODIFY NAME
 
 def main(args=None):
     rclpy.init(args=args)
-    node = SmartphoneNode() # MODIFY NAME
+    node = SmartphoneNode() 
     rclpy.spin(node)
     rclpy.shutdown()
 

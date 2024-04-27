@@ -85,7 +85,7 @@ rosidl_typesupport_introspection_cpp/my_robot_interfaces/msg/detail/hardware_sta
 rosidl_typesupport_introspection_cpp/my_robot_interfaces/msg/detail/hardware_status__rosidl_typesupport_introspection_cpp.hpp: rosidl_adapter/my_robot_interfaces/msg/TurtleArray.idl
 rosidl_typesupport_introspection_cpp/my_robot_interfaces/msg/detail/hardware_status__rosidl_typesupport_introspection_cpp.hpp: rosidl_adapter/my_robot_interfaces/srv/CatchTurtle.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/varun/ros2workspace/build/my_robot_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ introspection for ROS interfaces"
-	/usr/bin/python3.10 /opt/ros/humble/lib/rosidl_typesupport_introspection_cpp/rosidl_typesupport_introspection_cpp --generator-arguments-file /home/varun/ros2workspace/build/my_robot_interfaces/rosidl_typesupport_introspection_cpp__arguments.json
+	/usr/bin/python3 /opt/ros/humble/lib/rosidl_typesupport_introspection_cpp/rosidl_typesupport_introspection_cpp --generator-arguments-file /home/varun/ros2workspace/build/my_robot_interfaces/rosidl_typesupport_introspection_cpp__arguments.json
 
 rosidl_typesupport_introspection_cpp/my_robot_interfaces/srv/detail/compute_rectangle_area__rosidl_typesupport_introspection_cpp.hpp: rosidl_typesupport_introspection_cpp/my_robot_interfaces/msg/detail/hardware_status__rosidl_typesupport_introspection_cpp.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_introspection_cpp/my_robot_interfaces/srv/detail/compute_rectangle_area__rosidl_typesupport_introspection_cpp.hpp

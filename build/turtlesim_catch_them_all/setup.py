@@ -1,1 +1,0 @@
-/home/varun/ros2workspace/src/turtlesim_catch_them_all/setup.py

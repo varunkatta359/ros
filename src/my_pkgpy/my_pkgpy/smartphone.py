@@ -12,7 +12,7 @@ class SmartphoneNode(Node):
         self.get_logger().info("smartphone has been started")
  
     def callback_robot_news(self, msg):
-        self.get_logger().info("I received a message from the robot: %s" % msg.data)
+        self.get_logger().info(f"I received a message from the robot: {msg.data}")
 
 
 def main(args=None):

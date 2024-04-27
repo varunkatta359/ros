@@ -8,7 +8,7 @@ from example_interfaces.msg import String
 class RobotNewsStation(Node): 
     def __init__(self):
         super().__init__("robot_news_stationnn")
-        self.declare_parameter("robot_name", "default")
+        self.declare_parameter("robot_name", "jarvis")
 
         self.robot_name = self.get_parameter("robot_name").value
         
