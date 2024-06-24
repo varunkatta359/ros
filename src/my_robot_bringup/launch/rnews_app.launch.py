@@ -5,7 +5,7 @@ from launch_ros.actions import Node
 def generate_launch_description():
     ld = LaunchDescription()
     
-    robot_names = ["pAlLaVi","SruThI","ThuLaSi"]
+    robot_names = ["SruThI","ThuLaSi"]
     robot_news_station_nodes = []
     
     for names in robot_names:
